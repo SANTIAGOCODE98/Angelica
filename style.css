@@ -1,0 +1,305 @@
+body{
+    margin: 0;
+    padding: 0;
+    border-right:solid #f7adf8 4px;
+    border-bottom: solid #f7adf8 4px;
+    border-left: solid #f7adf8 4px;
+}
+body header{
+    background: #f7adf8;
+    height: 60px;
+}
+#parte_superior{
+    display: flex;
+    justify-content:space-between;
+    color: black;
+}
+#parte_superior h1{
+    margin-top: 8px;
+}
+#hojadevida a{
+    text-decoration: none;
+    color: #f7adf8;
+    font-size: 85%;
+}
+.dropdown {
+    display: inline-block;
+    position: relative;
+    margin-top: auto;
+}
+
+.dropbtn {
+    background-color: #f7adf8 ;
+    color: black;
+    padding: 10px;
+    font-size: 24px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    background-color: #f9f9f9;
+    min-width: 120px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    max-height: max-content;
+    
+}
+
+.dropdown-content button {
+    color: black;
+    text-decoration: none;
+    display: block;
+    background-color: #fff;
+    border: none;
+    width: 100%;
+    text-align: left;
+}
+
+.dropdown-content button:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #f7adf8;
+}
+.dropdownResponsive{
+        display: none;
+}
+
+#centro h1{
+    font-size: 46px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.nombre{
+    display: flex;
+    justify-content: space-between;
+    margin-right: auto;
+    background-color: white;
+    height: auto;
+    align-items: center;
+    border: solid 2px #f7adf8;
+    border-radius: 2px;
+    width: auto;
+    flex-direction: column;
+}
+.nombre h2{
+    text-align: center;
+}
+.nombre p{
+    font-family: cursive;
+    font-size: 76%;
+    text-align: center;
+    width: 130%
+}
+#foto{
+    display: contents;
+}
+
+#foto img{
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: 10px;
+    margin-left: -2%;
+    border-radius: 54%;
+}
+#nombre_titulo{
+    margin-right: 10%;
+    max-width: 100%;
+}
+#lenguaje{
+    display: inline-flex;
+}
+
+#tamano_boton {
+    width: 48px;
+    height: 48px;
+    margin-top: 6px;
+    background-color: #f7adf8 ;
+    border: none;
+}
+#tamano_boton img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.contenido{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    height: 230px;
+}
+#contenidoi p{
+    font-family: cursive;
+    background-color: #f7adf8 ;
+    max-width: 50%;
+    max-height: 100%;
+    font-size: 116%;
+    text-align: center;
+    height: fit-content;
+    width: 36%;
+}
+#contenidod p{
+    font-family: cursive;
+    background-color: #f7adf8 ;
+    max-width: 50%;
+    max-height: 90%;
+    font-size: 116%;
+    text-align: center;
+    height: fit-content;
+    width: 36%;
+
+}
+#contenidoi img{
+    max-width:50%;
+    max-height:90%
+}
+
+#redes{
+    background-color: #f7adf8 ;
+    height: 20%;
+}
+@media (max-width:500px) {
+    body{
+        margin: 0;
+        padding: 0;
+        border-right:solid #f7adf8 4px;
+        border-bottom: solid #f7adf8 4px;
+        border-left: solid #f7adf8 4px;
+    }
+    body header{
+        background: #f7adf8;
+        height: 60px;
+    }
+    .dropdownResponsive {
+        display: inline-block;
+        position: relative;
+    }
+    
+    .dropbtnResponsive {
+        background-color: #f7adf8;
+        color: black;
+        padding: 10px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+        margin-top: 12px;
+    }
+    
+    .dropdown-contentResponsive {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+        width: auto;
+        font-size: 20px;
+    }
+    
+    .dropdown-contentResponsive button {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        background-color: #fff;
+        border: none;
+        width: 70%;
+        text-align: left;
+    }
+    
+    .dropdown-contentResponsive button:hover {
+        background-color: #ddd;
+    }
+    
+    .dropdownResponsive:hover .dropdown-contentResponsive {
+        display: block;
+    }
+    
+    .dropdownResponsive:hover .dropbtnResponsive {
+        background-color: #f7adf8;
+    }
+    #lenguaje{
+        display: none;
+    }
+    #centro h1{
+        font-size: 24px;
+        margin-top: 16px;
+        display: flex;
+        justify-content:center;
+    }
+    .dropbtn{
+        font-size: 12px;
+    }
+    #tamano_boton {
+        width: 100%;
+        height: 50px;
+        margin-top: auto;
+        background-color: #f7adf8 ;
+        border: none;
+    }
+    .nombre p{
+        width: 100%;
+        font-size: 100%;
+        text-align: center;
+        margin-left: 26px;
+        font-family: cursive;
+        margin-top: 24px;
+        margin-bottom: -24px;
+    }
+    .nombre h2{
+        font-size: 20px;
+        margin-left: 20px;
+        text-align: center;
+    }
+    #foto img {
+        max-width: 100%;
+        max-height: 100%;
+        margin-top: 10px;
+        margin-left: -4px;
+        border-radius: 54%;
+    }
+    .contenido{
+        display: flex;
+        justify-content: left;
+        background-color: white;
+        height: auto;
+        flex-direction: column;
+        width: 194%;
+        margin-top: -72px;
+    }
+    .contenido img{
+        margin-top: 0%;
+        height: fit-content;
+        width: auto;
+    }
+    #contenidoi p{
+        height: fit-content;
+        width: 50%;
+        font-size: 100%;
+        text-align: center; 
+        margin-top: 13%;
+        font-family: cursive;
+    }
+    #contenidod p{
+        height: fit-content;
+        width: 50%;
+        font-size: 100%;
+        text-align: center; 
+        margin-top: 13%;
+        font-family: cursive;
+    }
+    .Botones{
+        display: flex;
+        justify-content: space-between;
+    }
+}
