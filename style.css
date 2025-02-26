@@ -137,6 +137,8 @@ body header{
     justify-content: space-around;
     background-color: white;
     height: 230px;
+    max-width: 100%;
+    width: auto;
 }
 #contenidoi p{
     font-family: cursive;
@@ -146,7 +148,8 @@ body header{
     font-size: 116%;
     text-align: center;
     height: fit-content;
-    width: 36%;
+    width: auto;
+    max-width: 100%;
 }
 #contenidod p{
     font-family: cursive;
@@ -160,8 +163,8 @@ body header{
 
 }
 #contenidoi img{
-    max-width:50%;
-    max-height:90%
+    max-width:100%;
+    max-height:100%
 }
 
 #redes{
@@ -175,6 +178,7 @@ body header{
         border-right:solid #f7adf8 4px;
         border-bottom: solid #f7adf8 4px;
         border-left: solid #f7adf8 4px;
+        max-width: 100%;
     }
     body header{
         background: #f7adf8;
@@ -274,29 +278,33 @@ body header{
         background-color: white;
         height: auto;
         flex-direction: column;
-        width: 194%;
+        width:auto;
+        max-width: 100%;
         margin-top: -72px;
     }
     .contenido img{
         margin-top: 0%;
         height: fit-content;
         width: auto;
+        max-width: 100%;
     }
     #contenidoi p{
         height: fit-content;
-        width: 50%;
+        width: auto;
+        max-width: 100%;
         font-size: 100%;
         text-align: center; 
-        margin-top: 13%;
+        margin-top: 24%;
         font-family: cursive;
     }
     #contenidod p{
         height: fit-content;
-        width: 50%;
+        width: auto;
         font-size: 100%;
         text-align: center; 
         margin-top: 13%;
         font-family: cursive;
+        max-width: 100%;
     }
     .Botones{
         display: flex;
